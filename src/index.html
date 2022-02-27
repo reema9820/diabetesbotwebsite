@@ -18,11 +18,9 @@
   </nav>
 
 <!-- Slide Show -->
+
 <section>
-  <img class="mySlides" src="diabetes 1.jpg" width="1000" height="300" >
-  <img class="mySlides" src="diabetes 2.jpg" width="1000" height="300">
-  <img class="mySlides" src="diabetes 3.jpg" width="1000" height="300">
-  <img class="mySlides" src="diabetes 4.jpg" width="1000" height="300">
+  <div class="bg"></div>
 </section>
 
 <script>
@@ -31,7 +29,7 @@ carousel();
 
 function carousel() {
   var i;
-  var x = document.getElementsByClassName("mySlides");
+  var x = document.getElementsByClassName("bg");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
