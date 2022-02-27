@@ -12,9 +12,9 @@
 <body>
   <!-- Navigation -->
 <nav class="navbar">
-  <a href="#home" class="title1">Home</a>
-  <a href="#risk" class="title1">Diabetes Risk Test</a>
-  <a href="#track" class="title1">Track Your Diabetes</a>
+  <a href="index.html" class="title1">Home</a>
+  <a href="risk.html" class="title1">Diabetes Risk Test</a>
+  <a href="track.html" class="title1">Track Your Diabetes</a>
 </nav>
 
 <!-- Slide Show -->
@@ -44,35 +44,7 @@ function carousel() {
 <!--
 <iframe src='https://webchat.botframework.com/embed/diabetesqna-bot?s=7jF-LQZp89g.28AzLo_hdoCF8mlAtnwjTbeRV7Qh8U9966chYT8v4vE'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>
 -->
-<div class="container" style="order: 3; position: relative; width: 400px; min-width: 400px; height: 100%;">
-  <div>
-    <div role="main"></div>
-  </div>
-  <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
-  <script>
-    document.querySelectorAll('[role="main"]')[0].setAttribute("id", "webchat");
-    const styleOptions = {
-      // Add styleOptions to customize web chat canvas
-      hideUploadButton: true,
-    };
 
-    var BOT_ID = "7jF-LQZp89g.28AzLo_hdoCF8mlAtnwjTbeRV7Qh8U9966chYT8v4vE";
-    var theURL = "https://webchat.botframework.com/embed/diabetesqna-bot?s=" + BOT_ID;
-    fetch(theURL)
-      .then(response => response.json())
-      .then(conversationInfo => {
-        window.WebChat.renderWebChat({
-            directLine: window.WebChat.createDirectLine({
-              token: conversationInfo.token,
-            }),
-            styleOptions
-          },
-          document.getElementById('webchat')
-        );
-      })
-      .catch(err => console.error("An error occurred: " + err));
-  </script>
-</div>
 
 </body>
 
