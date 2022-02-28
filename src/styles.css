@@ -47,12 +47,6 @@ iframe{
 legend{
   text-align: center; background-color: #611444; color: #fff ;font-size:x-large;
 }
-h1{
-  font-size:x-small;
-  color:#fff;
-  text-align: left;
-}
-
 .item{
   background-color: hsla(309, 47%, 80%, 0.918);
 }
