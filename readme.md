@@ -1,4 +1,4 @@
-# Diabetes Bot Website
+# Diabetes Application
 
 Roughly 1 in 5 individuals with diabetes (7.3 million) didn't even know they had it. According to the World Health Organization, about 422 million people across the world have diabetes. 
 This Diabetes Application is made to spread awareness about the chronic disease. My web application uses a Diabetes Chatbot which would help in giving information about diabetes. It could answer your questions related to diabetes. The best part of my application, is all this information would be stored and given using a chatbot. Which, currently is popular among millennials, who form one of the largest customer bases, appreciate fast-paced communication and they prefer engaging with chatbot rather than complex applications.
