@@ -34,7 +34,7 @@ width: 100% ;
 height:600px;
 }
 
-p .intro{
+p {
   color: rgb(80, 12, 46);
   text-indent: 30px;
   text-transform: uppercase;
