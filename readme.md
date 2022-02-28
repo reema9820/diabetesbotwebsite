@@ -10,14 +10,14 @@ Another feature of my application is a diabetes tracker, where I have included a
 
 Navigating through the application:
 
-1. You will find some popular quotes on the home page, if you will scroll down, you will find the chatbot which could answer all your questions related to diabetes. The chatbot data has been taken from reliable websites like cdc and niddk diabetes.
+1. You will find some popular quotes on the home page, if you will scroll down, you will find the chatbot which could answer all your questions related to diabetes. The chatbot data has been taken from reliable websites like cdc and niddk diabetes. I have used QNA Maker azure service for creating the knowledge base and then I have integrated qna maker with azure boot service so as to create a chatbot. 
 
 2. When You Click on Diabetes Risk Test in the Navigation Bar, You will be taken to anpther page, wherein you could fill the form to know whether you are at risk of diabetes.( This risk tool is based on The Australian Type 2 Diabetes Risk Assessment Tool (AUSDRISK) from the website: https://www.health.gov.au/resources/apps-and-tools/the-australian-type-2-diabetes-risk-assessment-tool-ausdrisk/the-australian-type-2-diabetes-risk-assessment-tool-ausdrisk-non-interactive#:~:text=Your%20waist%20measurement%20taken%20below,in%20line%20with%20your%20navel.
 
 3. When you cclick on track diabetes, a page would open with an excel sheet, wherein you could track and download the readings.
 
-See the Demo, so as to know how to navigate and use the different feature of the website:
-Demo link: https://www.youtube.com/watch?v=MntFl4Tup7g&feature=youtu.be
+See the Video Demo, so as to know how to navigate and use the different feature of the website:
+Video Url link: https://www.youtube.com/watch?v=MntFl4Tup7g&feature=youtu.be
 
 
 Main Technologies Used:-
