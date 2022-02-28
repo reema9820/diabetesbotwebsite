@@ -9,6 +9,8 @@ html, body {
   background-color: #fff;
 }
 
+
+
 .navbar {
   width: 100%;
   background-color: #555;
@@ -32,12 +34,16 @@ width: 100% ;
 height:600px;
 }
 
-p .intro {
-  color: navy;
+p .intro{
+  color: rgb(80, 12, 46);
   text-indent: 30px;
   text-transform: uppercase;
+  text-align: left;
+  align-content: left;
   float: left;
 }
+
+
 iframe{
   float:right;
 }
