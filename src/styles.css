@@ -48,9 +48,9 @@ legend{
   text-align: center; background-color: #611444; color: #fff ;font-size:x-large;
 }
 h1{
-  font-size:large;
-  color:#000;
-  text-align: center
+  font-size:medium;
+  color:#fff;
+  text-align: center;
 }
 
 .item{
@@ -64,9 +64,7 @@ h1{
   font-family: Helvetica,
 }
 
-ul .ul-list{
-  color: rgb(17, 15, 15);
-}
+
 
 
 

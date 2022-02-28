@@ -19,7 +19,7 @@
 				<form id="myForm" role="form" data-toggle="validator">
 					<div class="form-group">
 						<ol><li>Your Age Group:
-								<ul class="ul-list">
+								<ul style="color:rgb(17, 15, 15);"  class="ul-list">
 									<li>
 										<input type="radio" id="age1" name="age"  value="0" required>				
 										<label class="form-check-inline" for="age1">Under 35 years</label>
@@ -48,7 +48,7 @@
 								</ul>
 							</li>
 							<li>Your Gender :
-								<ul class="ul-list">
+								<ul style="color:rgb(17, 15, 15);"  class="ul-list">
 									<li>
 										<input type="radio" id="gen2" name="gen" value="0" required>
 										<label for="gen2">Female</label>
@@ -60,9 +60,8 @@
 
 								</ul>
 							</li>							
-							<li>
 							<li>Your ethnicity/country of birth :
-									<ul class="ul-list">
+								<ul style="color:rgb(17, 15, 15);"  class="ul-list">
 										<li>
 											<input type="radio" id="country2" name="country" value="0" required>
 											<label for="country2">Australia</label>
@@ -77,10 +76,10 @@
 											<label for="country3">Other</label>
 										</li>
 									</ul>
-								</li>							
-								<li>
+							</li>							
+							<li>
 								Have either of your parents, or any of your brothers or sisters been diagnosed with diabetes(type 1 or type 2) :
-								<ul class="ul-list">
+								<ul style="color:rgb(17, 15, 15);"  class="ul-list">
 									<li>										
 										<input type="radio" id="rel1" name="rel" value="3" required>
 										<label for="rel1">Yes</label>
@@ -93,7 +92,7 @@
 							</li>
 							<li>
 								Have you ever been found to have high blood glucose(sugar) (for example, in a health examination, during an illness, during pregnancy) :
-								<ul class="ul-list">
+								<ul style="color:rgb(17, 15, 15);"  class="ul-list">
 									<li>
 										<input type="radio" id="hbg1" name="hbg" value="6" required>
 										<label for="hbg1">Yes</label>
@@ -106,7 +105,7 @@
 							</li>
 							<li>
 								Are you currently taking medication for high blood pressure:
-								<ul class="ul-list">
+								<ul style="color:rgb(17, 15, 15);"  class="ul-list">
 									<li>
 										<input type="radio" id="med1" name="med"  value="2" required>		
 										<label for="med1">Yes</label>
@@ -119,7 +118,7 @@
 							</li>
 							<li>
 								Do you currently smoke cigarettes or any other tobacco products on a daily basis:
-								<ul class="ul-list">
+								<ul style="color:rgb(17, 15, 15);"  class="ul-list">
 									<li>
 										<input type="radio" id="smoking1" name="smoking"  value="2" required>		<label for="rd-smoking-1">Yes</label>
 										
@@ -132,7 +131,7 @@
 							</li>
 							<li>
 								How often do you eat vegetables or fruits? :
-								<ul class="ul-list">
+								<ul style="color:rgb(17, 15, 15);"  class="ul-list">
 									<li>
 										<input type="radio" id="vegfruit1" name="vegfruit"  value="0" required>			
 										<label for="vegfruit1">Every Day</label>
@@ -146,7 +145,7 @@
 							</li>
 							<li>
 								On average, would you say you do at least 2.5 hours of physical activity per week (for example, 30 minutes a day on 5 or more days a week) :
-								<ul class="ul-list">
+								<ul style="color:rgb(17, 15, 15);"  class="ul-list">
 									<li>
 										<input type="radio" id="activity1" name="activity"  value="0" required>			<label for="activity1">Yes</label>
 									</li>
@@ -158,9 +157,9 @@
 							</li>
 							<li>
 								Your waist measurement taken below the ribs(usually at the level of the navel, and while standing) :
-								<ul class="ul-list">
+								<ul style="color:rgb(17, 15, 15);"  class="ul-list">
 									<li style="color: #580243;"><b><i>Men</i></b>
-										<ul class="ul-list">
+										<ul style="color:rgb(17, 15, 15);"  class="ul-list">
 											<li>
 												<input type="radio" id="male1"    name="waist"  value="0" required>	<label for="male1">Less than 90 cm</label>
 											</li>
@@ -175,7 +174,7 @@
 									</ul>
 								</li>
 								<li style="color: #580243;"><b><i>Women</b></i>
-									<ul class="ul-list">
+									<ul style="color:rgb(17, 15, 15);"  class="ul-list">
 										<li>
 											<input type="radio" id="female1" name="waist"  value="0" required> 
 											<label for="female1">Less than 80 cm</label>
@@ -194,7 +193,7 @@
 						</li>
 
 					</ol>
-					<button type="submit" class="btn btn-primary" id="totalScore">Submit</button>
+					<button type="submit" class="btn btn-primary" id="totalScore" style="text-align: center; color:#580243">Submit</button>
 				</div>
 			</form>
 			<legend class="msg"></legend>
@@ -228,7 +227,7 @@
 
 
 				   var msgIndex = setMsg(total);
-				   $('.msg').html(arrText[msgIndex]);
+				   alert(array[msgIndex]);
 				   				});
 
 			});
