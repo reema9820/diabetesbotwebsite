@@ -9,11 +9,11 @@ My web application would also help in predicting if someone is at risk of diabet
 Navigating through the application:
 
 1. You will find some popular quotes on the home page, if you will scroll down, you will find the chatbot which could answer all your questions related to diabetes.
-2. When You Click on Diabetes Risk Test in the Navigation Bar, You will be taken to anpther page, wherein you could fill the form to know whether you are at risk of diabetes.
+2. When You Click on Diabetes Risk Test in the Navigation Bar, You will be taken to anpther page, wherein you could fill the form to know whether you are at risk of diabetes.( This risk tool is based on The Australian Type 2 Diabetes Risk Assessment Tool (AUSDRISK) from the website: https://www.health.gov.au/resources/apps-and-tools/the-australian-type-2-diabetes-risk-assessment-tool-ausdrisk/the-australian-type-2-diabetes-risk-assessment-tool-ausdrisk-non-interactive#:~:text=Your%20waist%20measurement%20taken%20below,in%20line%20with%20your%20navel.
 
 
 Main Technologies Used:-
 
-Azure Static Web Apps
-Azure Bot Service 
-Azure QNA Maker 
+1. Azure Static Web Apps
+2. Azure Bot Service 
+3. Azure QNA Maker 
